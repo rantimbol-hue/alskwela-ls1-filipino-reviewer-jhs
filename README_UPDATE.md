@@ -1,25 +1,20 @@
-# ALSKwela — JHS LS1 Filipino Reviewer v2.0 (16 November 2026)
+# ALSKwela JHS_LS1_Filipino — Three-Section PDF Report v3.3
 
-## What changed
-- 89 of 120 items have revised options for **balanced lengths and credible distractors**.
-- The correct option was uniquely longest in 85 of 120 before; now 24 of 120.
-- Average correct option: 9.93 → 8.94 words.
-- Average distractor: 6.84 → 8.53 words.
-- Maximum within-item word spread: 10 → 5 words; items with word spread above 5: 0.
-- **Unchanged:** 120 stimuli and question stems; 22 CG competency references; correct answer letters; all professional Filipino/Taglish learner feedback; three original 40-item fixed sets, randomization and PDF features.
-- Offline cache bumped to `v2-options` to serve updated content; the PWA app identity, name, scope, URLs, and local session storage remain unchanged.
+## Changes
+- Performance Snapshot (scores and domain results)
+- Let's Learn From Mistakes (missed questions, your selected answer, correct answer, Taglish explanation, LC review hint)
+- What I Already Know (correct answers and short explanations)
+- Removed Review Priorities and Personal Study Plan
+- No permanent update banner. A small optional 'Check updates' link is in the footer.
+- Same 120-item question bank, app name, and saved-progress keys as the source package.
+- Network-first HTML while connected, offline cached copy when disconnected.
 
-## Updating an existing Filipino GitHub repository
-1. Back up or download the current repository before editing.
-2. Extract the GitHub update ZIP on your computer. Do not upload the ZIP file itself.
-3. Open your **existing Filipino reviewer repository** on GitHub, not the English repository. Select the branch currently used for GitHub Pages, normally `main`.
-4. Use **Add file → Upload files** in the repository root. Upload `index.html`, `sw.js`, `manifest.webmanifest`, `icon-192.png`, `icon-512.png`, `.nojekyll`. Replace same-name existing files, then commit. README and QA files are optional and do not affect the reviewer.
-5. Check **Settings → Pages** and ensure the publication source remains the existing branch and `/(root)`.
-6. On Android, open the *existing Filipino reviewer link* directly in Chrome while online, reload, then fully close and reopen the installed reviewer to activate the new cache.
-7. Start a **new** trial (ongoing trials may retain old option text); inspect revised choices, correct/incorrect feedback, randomization and PDF report.
-8. Turn on **Airplane mode** and reopen the installed Home Screen app to verify offline performance.
+## Update existing GitHub Pages repository
+1. Download this ZIP, then **extract** it.
+2. Upload the extracted files to your existing repository **root** (replace matching files); do not upload the ZIP itself.
+3. Commit to the branch used by GitHub Pages.
+4. Open /verify-update-v3.html on that published repository in Chrome while online.
+5. Tap 'Check and activate v3.3', then 'Open Reviewer'.
+6. Finish or save existing trials before updating. Verify the PDF and airplane-mode use.
 
-**Do not clear site storage or uninstall** just to update, unless you have exported needed reports; stored progress may be lost.
-
-## Limitations
-The option-length audit reduces unintended cues but does not establish that questions are psychometrically validated. Review and pilot all items. They are practice questions, not official A&E examination materials.
+To avoid losing learner responses, do not clear Chrome site storage.
