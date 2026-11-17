@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "app_id": "JHS_LS1_Filipino",
+  "bank_version": "1.0.0",
+  "trial_size": 40,
+  "foundation_count": 120,
+  "foundation_sha256": "61a284063bba735a072436905f2295c47f6c295d2971e6283841efc4676fa24b",
+  "foundation_sets": [
+    "A",
+    "B",
+    "C"
+  ],
+  "curriculum_reference": "DepEd 2026 Revised ALS CG",
+  "new_guideline_sources": [],
+  "sets": [],
+  "description": "Append only new sets here. Existing foundation A-C is locked."
+}
